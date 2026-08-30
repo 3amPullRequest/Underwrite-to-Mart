@@ -222,10 +222,7 @@ memory/
 logs/
 
 # Data Ingestion & Staging
-data/raw/
-data/processed/
-data/chunks/
-data/cache/
+data/*
 *.parquet
 *.feather
 *.h5

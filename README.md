@@ -1,3 +1,5 @@
+This project is licensed under the PolyForm-Small-Business-1.0.0 license.
+
 # About
 
 This is my personal Capstone Project where I attempt to tackle a common problem in the Actuarial industry: extracting data from messy sources. My core idea is as follows, expressed via the ETL Framework.
