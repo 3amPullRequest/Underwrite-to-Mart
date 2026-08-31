@@ -222,7 +222,7 @@ memory/
 logs/
 
 # Data Ingestion & Staging
-data/*
+!data/**/.gitkeep
 *.parquet
 *.feather
 *.h5
