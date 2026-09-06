@@ -63,3 +63,31 @@ The **licensor** is the individual or entity offering these terms, and the **sof
 **Your licenses** are all the licenses granted to you for the software under these terms.
 
 **Use** means anything you do with the software requiring one of your licenses.
+
+
+---
+
+## Third-Party Software Notices
+
+This project depends on third-party open-source software. Below is a list of these dependencies and their respective licenses:
+
+| Package | License | Project URL |
+| :--- | :--- | :--- |
+| **beautifulsoup4** | MIT | https://www.crummy.com/software/BeautifulSoup/ |
+| **curl-cffi** | MIT | https://github.com/yifeikong/curl-cffi |
+| **dagster** | Apache 2.0 | https://github.com/dagster-io/dagster |
+| **dagster-polars** | Apache 2.0 | https://github.com/dagster-io/dagster |
+| **dagster-webserver** | Apache 2.0 | https://github.com/dagster-io/dagster |
+| **datasets** | Apache 2.0 | https://github.com/huggingface/datasets |
+| **ipykernel** | BSD-3-Clause | https://github.com/ipython/ipykernel |
+| **pandera** | MIT | https://github.com/unionai-oss/pandera |
+| **playwright** | Apache 2.0 | https://github.com/microsoft/playwright-python |
+| **playwright-stealth** | MIT | https://github.com/AtuboDad/playwright_stealth |
+| **polars** | MIT | https://github.com/pola-rs/polars |
+| **pyarrow** | Apache 2.0 | https://github.com/apache/arrow |
+| **requests** | Apache 2.0 | https://github.com/psf/requests |
+| **typer** | MIT | https://github.com/fastapi/typer |
+
+### Notice Requirements
+* **Permissive Licenses (MIT, BSD-3-Clause, Apache 2.0):** All of your direct dependencies use permissive licenses that are compatible with proprietary or standard open-source distribution.
+* **Redistribution of Binaries/Code:** If you distribute compiled code, Docker images, or vendored wheels rather than just source code, Apache 2.0 and BSD-3 require retaining the original copyright notice and license text in the distributed bundle.
