@@ -1,10 +1,8 @@
 This project is licensed under the PolyForm-Small-Business-1.0.0 license.
 
-# About
+Credit for the NMVCCS Scraping tool goes to https://github.com/manuelcaccone/NLP-Actuarial-Loss-Modeling
 
-Choices of models:
-* Life: XGBoost or LightBGM
-* P&C: Combined Actuarial Neural Network
+# About
 
 This is my personal Capstone Project where I attempt to tackle a common problem in the Actuarial industry: extracting data from messy sources. My core idea is as follows, expressed via the ETL Framework.
 
@@ -38,10 +36,7 @@ Point **1** also contributes heavily to lack of automation. This is not to fault
 ##### 3. Not Enough Data
 According to my friends who worked with social media analytics, it isn't uncommon to rely on the Law of Large Numbers to dampen the impact of random errors introduced by the Natural Language processor. But risk professionals, especially Actuaries who don't typically have the luxury of hundreds of millions of data points to dampen anything, need greater rigour. Relatively mild increases in variance can lead to higher Risk Margins (Provision for Adverse Deviation) and regulatory capital requirements, incurring opportunity cost in the millions.
 
-### Why this project can be the solution
-
-
 
 # Footnotes
 
-1. PDFs introduce significant complications for LLMs, in that it uses what is called a 'Fixed Coordinate Architecture', where under the hood every element is mapped to a coordinate. This works well and consistent when many different machines view it, but trying to parse it to text will just return gibberish (because it cares only about the physical location of the characters, not about the structure of the document). A common workaround is to use Optical Character Recognition (OCR) to visually parse it to text, but this can be unreliable (eg: 1 vs l vs I??). Therefore, to simplify matters, I elected to start with Word Documents, which is actually just a zipped bunch of XML files organised neatly (Dynamic Flow Architecture).
+1. PDFs introduce significant complications for LLMs, in that it uses what is called a 'Fixed Coordinate Architecture', where under the hood every element is mapped to a coordinate. This works well and consistent when many different machines view it, but trying to parse it to text will just return gibberish (because it cares only about the physical location of the characters, not about the structure of the document). A common workaround is to use Optical Character Recognition (OCR) to visually parse it to text, but this can be unreliable (eg: 1 vs l vs I??).
