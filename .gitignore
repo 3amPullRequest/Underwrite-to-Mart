@@ -222,6 +222,8 @@ memory/
 logs/
 
 # Data Ingestion & Staging
+data/**
+!data/**/
 !data/**/.gitkeep
 *.parquet
 *.feather
@@ -266,3 +268,8 @@ cover/
 ehthumbs.db
 Thumbs.db
 [Dd]esktop.ini
+
+# =========================================================
+# Dagster temporary execution directories
+# =========================================================
+.tmp_dagster_*
